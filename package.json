@@ -1,0 +1,39 @@
+{
+  "name": "@ayub-begimkulov/i18n",
+  "version": "0.2.1",
+  "description": "Small and type-safe package to create multi-language interfaces.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayub-Begimkulov/i18n.git"
+  },
+  "keywords": [
+    "galera",
+    "i18n",
+    "react-i18n"
+  ],
+  "author": "Ayub Begimkulov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ayub-Begimkulov/i18n/issues"
+  },
+  "homepage": "https://github.com/Ayub-Begimkulov/i18n#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0 || 17.x || 18.x"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
